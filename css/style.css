@@ -1,3 +1,57 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.hero-cta-btn:hover,
+.cta-btn:hover {
+  opacity: 0.75;
+}
+
+.hero-cta-btn,
+.cta-btn {
+  box-shadow: 1px 1px 4px #242323;
+}
+
+.features-link:hover {
+  filter: contrast(300%);
+}
+
+.features-review {
+  box-shadow: 2px 2px 2px #dedede;
+}
+
+.footer a:hover {
+  color: #585989;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 a {
   font-family: "Open Sans", sans-serif;
 }
@@ -92,60 +146,6 @@ a {
 
 .attribution a {
   color: #3c9f8f;
-}
-
-*,
-::after,
-::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-size: 16px;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-li {
-  list-style: none;
-}
-
-.hero-cta-btn:hover,
-.cta-btn:hover {
-  opacity: 0.75;
-}
-
-.hero-cta-btn,
-.cta-btn {
-  box-shadow: 1px 1px 4px #242323;
-}
-
-.features-link:hover {
-  filter: contrast(300%);
-}
-
-.features-review {
-  box-shadow: 2px 2px 2px #dedede;
-}
-
-.footer a:hover {
-  color: #585989;
-}
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
 .main-container {
