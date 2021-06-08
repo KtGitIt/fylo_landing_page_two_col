@@ -1,0 +1,88 @@
+@use 'colors' as c;
+
+$headings: "Raleway", sans-serif;
+$body: "Open Sans", sans-serif;
+
+a {
+  font-family: $body;
+}
+.nav-item {
+  color: c.$VeryDarkBlue;
+}
+
+.hero-heading {
+  color: c.$VeryDarkBlue;
+  font-family: $headings;
+  font-weight: 700;
+  font-size: 1.55rem;
+  margin-bottom: 1.5rem;
+}
+.hero-paragraph {
+  color: c.$VeryDarkBlue;
+  font-family: $body;
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+}
+.hero-cta-emailbox::placeholder,
+.cta-email::placeholder {
+  color: c.$LightGray;
+  font-family: $body;
+  font-size: 0.85rem;
+}
+.hero-cta-btn,
+.cta-btn {
+  background-color: c.$BrightBlue;
+  color: c.$LightGrayishBlue;
+  font-size: 1.05rem;
+  border: 0px;
+}
+.features-heading {
+  font-family: $headings;
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.features-paragraph {
+  margin: 2rem 0;
+  font-size: 1.325rem;
+  font-family: $body;
+  color: c.$VeryDarkBlue;
+}
+.review-text {
+  font-family: $body;
+  line-height: 1.5;
+  font-size: 1.05rem;
+}
+
+.review-title > h3 {
+  font-family: $body;
+  font-weight: 700;
+  color: c.$VeryDarkBlue;
+  font-size: 0.75rem;
+  margin-bottom: 0.15rem;
+}
+.review-subtitle {
+  font-family: $body;
+  font-size: 0.55rem;
+  color: c.$VeryDarkBlue;
+}
+.cta-heading {
+  font-family: $body;
+  color: c.$LightGrayishBlue;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.cta-paragraph {
+  font-family: $body;
+  color: c.$LightGrayishBlue;
+  font-size: 1.05rem;
+  margin-bottom: 1.75rem;
+}
+.attribution {
+  text-align: right;
+  font-family: $body;
+  font-size: 0.65rem;
+}
+.attribution a {
+  color: c.$ModerateCyan;
+}
